@@ -1,5 +1,5 @@
-# Time_Series_Analysis_Tools
-
+ABOUT
+        
         This module contains functions for time series analysis, including visualizations, statistical tests, 
         and model evaluation metrics.
         
@@ -33,5 +33,11 @@
             Evaluates multiple forecasting models and displays their performance metrics.
         7. split_data(df, train_proportion = 0.8):
             Splits a DataFrame into training and testing sets.
+
+
+HOW TO IMPORT THESE FUNCTIONS?     
+
+        All Functions: from time_series.ts_tools import *
+        Some Functions: from time_series.ts_tools import show_seasonal, show_periodogram 
 
 
